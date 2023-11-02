@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Oswald:wght@600&family=Oswald:wght@600&family=Pacifico&family=Rowdies:wght@300;400&family=Rowdies:wght@300;400&display=Comic+Neue:ital@1&family=Oswald:wght@600&family=Pacifico&family=Poppins:wght@800&family=Rowdies:wght@300;400&display=Ruslan+Display&display=swap');
+
+
+body{ /* This rule sets initial styles for the entire webpage, including margin, padding, and overflow properties. */
+    margin: 0px;
+    background-color: #e3d0ff;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 2s;
+    overflow-x: hidden;
+    height: 455vh;
+    transition: 2s;
+}
+.container{ /* Setting the height of the .container to max-content */
+    height: max-content;
+}
+div.navbar div{ /* Adding margin to div elements inside .navbar */
+    margin: 5px;
+}
+.navbar{ /* styles the navigation bar, including its background color, padding, and dimensions. */ 
+    border: 1px;
+    background-color: #B386F4;
+    padding: 2px;
+    width: 100%;
+    height: 70px;
+}
+
+/* The following rules apply styles to elements with specific IDs, and it sets the background colors, 
+margins, and font families for anchor elements within these sections. */
+
+#home{
+    background-color: #601BC4;
+    margin: 2px;
+}
+#home a {
+    color: white;
+    font-family: 'Poppins';
+}
+#overview{
+    background-color: #601BC4;
+    margin-right: 2px;
+}
+#overview a{
+    color: white;
+    font-family: 'Poppins';
+}
+#mainc{
+    background-color: #601BC4;
+    margin-right: 2px;
+}
+#mainc a{
+    color: white;
+    font-family: 'Poppins';
+}
+#abt{
+    background-color: #601BC4;
+    margin-right: 2px;
+}
+#abt a{
+    color: white;
+    font-family: 'Poppins';
+}
+#ref{
+    background-color: #601BC4;
+    margin-right: 2px;
+    
+}
+#ref a{
+    color: white;
+    font-family: 'Poppins';
+}
+.links:hover{ /*It sets transitions and adjusts the font size and padding. */
+    transition: .3s;
+    font-size: larger;
+    padding: 6px; 
+}
+.links a{ /*Removes the underline decorations of the elements in class 'links'.*/
+    text-decoration: none;
+}
+.links { /* Styles the 'links' class elements. */
+    display: inline;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .3s;
+    padding: 7px;
+    border-radius: 7px;
+}
+#linkss{ /*Adjusts the text alignment, float, and margin of an element with ID 'linkss'.*/
+    text-align: right;
+    float: right;
+    margin-top: 22px;
+}
+#logo{ /*Styles the element/s with ID 'logo. */
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+#logo img{ /* Fixes the size of the image in the 'logo' ID. */
+    height: 70px;
+    width: 70px;
+    margin-top: -15px;
+}
+.logo h1{ /*Sets the font style and color of the h1 in this class. */
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    
+}
+.footer{ /*Fixes the position at the bottom, sets the background color, height, and width of the elements in the footer. */
+    background-color: #B386F4;
+    position: fixed;
+    bottom: 0%;
+    height: 50px;
+    margin: 0;
+    width: 100vw;
+}
+#copyright{ /*Fixes its position, setting text color, font style, font family, and font size of element/s in this ID. */
+    position: fixed;
+    bottom: 19px;
+    left: 20px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-family: 'Comic Nue';
+    font-size: 13px;
+}
+.title{ /* Sets the background color of elements with class "title" to a pale lavender color. */
+    background-color: #d6b8ff;
+}
+.title:hover{ /* Changes the opacity of elements in this class when hovered over and adds a smooth 3-second transition effect. */
+    opacity: 2s;
+    transition: 3s;
+}
+.titletext{ /* Styles the element/s in this class. Fixes its positions, sets the background color to a lavender shade, 
+    rounds the corners,  limits the maximum width to 70%, and adds margin left. */
+    position: absolute;
+    top: 22%;
+    left: 13%;
+    background-color: #B386F4;
+    border-radius: 10px;
+    max-width: 70%;
+    margin-left: 130px;
+}
+.titletext h1{ /* Adds padding to the left and right of the text content. 
+    Sets the font size, text alignment, font family, text color, and text shadow. */
+    padding-inline-start: 3%;
+    padding-inline-end: 3%;
+    font-size: 4.20em;
+    text-align: center;
+    font-family: 'Rowdies';
+    color: rgb(116, 22, 116);
+    text-shadow: -3px 3px 0 #fc3699,1px 1px 0 #8a005c,1px -1px 0 #ff3030,-1px -1px 0 #f020de;
+
+}
+.viewtext{ /* Similiar in the class 'titletext', it fixes the positions, sets the background color to a lavender shade, 
+    rounds the corners,  limits the maximum width to 80%, adds margin left, and a 2s smooth transition. */
+    position: absolute;
+    top: 15%;
+    left: 9%;
+    background-color: #B386F4;
+    border-radius: 10px;
+    max-width: 80%;
+    margin-left: 130px;
+    transition: 2s;
+}
+.viewtext h1{ /* Sets the font size, text alignment, font family, text color, text shadow, 
+    adds padding to the left and right of the text content, and sets a smooth transition duration. */
+    font-size: 2.6em;
+    text-align: center;
+    font-family: 'Rowdies';
+    color: rgb(255, 213, 230);
+    text-shadow: -2px 2px 0 #000,1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000;
+    padding-inline-start: 2%;
+    padding-inline-end: 2%;
+    transition-duration: 2s;
+
+}
+.viewtext2 { /* Styles for elements with class "viewtext2", fix positions, sets bg color, rounds the corners, 
+    adds maximum width, sets margins and a smooth transition effect. */
+    position: absolute;
+    top: 109%;
+    background-color: #B386F4;
+    border-radius: 10px;
+    max-width: 100%;
+    margin-left: 130px;
+    margin-top: 5vh;
+    transition-duration: 2s;
+}
+.viewtext2 p{  /* Sets the font size, text alignment, font family, text color, and padding to the left and right of the text content. */
+    font-size: 1.5em;
+    text-align: justify;
+    font-family: 'Oswald';
+    color: black;
+    padding-inline-end: 3%;
+    padding-inline-start: 3%;
+
+}
+.viewtext3 h1{ /* The same with the other, sts the font family, text alignment, font size, text color, and padding.*/
+    font-family: fantasy;
+    text-align: left;
+    font-size: 60px;
+    color: rgb(56, 10, 68);
+    padding-inline-end: 3%;
+    padding-inline-start: 3%;
+    margin-top: 6.5%;
+    float: left;
+}
+.viewtext4{ /* Positions the element absolutely, sets the top and left positions, defines a background color with a border radius, limits the maximum width to 80%, adds left margin.*/
+    position: absolute;
+    top: 28.7%;
+    left: 9%;
+    background-color: #B386F4;
+    border-radius: 10px;
+    max-width: 80%;
+    margin-left: 130px;
+}
+.viewtext4 p { /*Increase font size to 'larger', justify text alignment, change font family to 'Oswald', 
+    set text color to black, add padding on both sides of the text. */
+    font-size: larger;
+    text-align: justify;
+    font-family: 'Oswald';
+    color: #000000;
+    padding-inline-end: 3%;
+    padding-inline-start: 3%;
+}
+.researchers{ /*Add a border radius to the element.*/
+    border-radius: 10%; 
+}
+
+/*Set border radius and define height and width for images inside elements with IDs 
+'researcher1','researcher2','researcher2'. Also applies absolute positioning and specific top and left margins.*/
+#researcher1 img{
+    border-radius: 2px;
+    height: 150px;
+    width: 150px;
+    border-radius: 360px;
+    position: absolute;
+    top: 14.6%;
+    margin-left: 3%;
+}
+#researcher2 img{
+    border-radius: 2px;
+    height: 150px;
+    width: 150px;
+    border-radius: 360px;
+    text-align: center;
+    margin-top: 3.5%;
+    margin-left: 37%;
+}
+#researcher3 img{
+    border-radius: 2px;
+    height: 150px;
+    width: 150px;
+    border-radius: 360px;
+    position: absolute;
+    top: 14.6%;
+    margin-left: 78%;
+}
+
+/* Set background colors, margins, and border radius for elements within IDs 'deya', 'leo', 'kenneth'. */
+#deya{
+    background-color: #B386F4;
+    margin: 2px;
+    top: 15%;
+    margin-left: 1%;
+    margin-right: 70%;
+    border-radius: 3px;
+}
+#leo{
+    background-color: #B386F4;
+    margin-top:-19.5vw;
+    margin-left: 37%;
+    margin-right: 36%;
+    border-radius: 3px;
+}
+#kenneth{
+    background-color: #B386F4;
+    margin-top: -19.3vw;
+    margin-left:70%;
+    margin-right: 1%;
+    border-radius: 3px;
+}
+
+/*Sets text color, font family, and padding for paragraphs within elements with IDs 'deya', 'leo', and 'kenneth'.*/
+#deya p{
+    color: black;
+    font-family: 'Poppins';
+    padding-inline-start: 2%;
+    padding-inline-end: 2%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+#leo p{
+    color: black;
+    font-family: 'Poppins';
+    padding-inline-start: 3%;
+    padding-inline-end: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+#kenneth p{
+    color: black;
+    font-family: 'Poppins';
+    padding-inline-start: 3%;
+    padding-inline-end: 3%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.lvariable h1{ /* Define font, alignment, size, color, and spacing for h1 within .lvariable */
+    font-family: 'Oswald';
+    text-align: left;
+    font-size: 40px;
+    color: black;
+    padding-inline-end: 2%;
+    padding-inline-start: 2%;
+    margin-top: 3.5%;
+    float: left;
+}
+.lvariable h2{ /* Define font size, alignment, font, color, and padding for h2 within .lvariable */
+    font-size: larger;
+    text-align: left;
+    font-family: 'Oswald';
+    color: black;
+    padding-top: 12%;
+    font-size: 1.5em;
+}
+.lvariable p{ /* Define font size, alignment, font, color, and spacing for paragraphs within .lvariable */
+    font-size: larger;
+    text-align: justify;
+    font-family: 'Oswald';
+    color: black;
+    padding-inline-end: 3%;
+    padding-top: 4%;
+    padding-inline-start: 3%;
+}
+.lvariable img{  /* Set top margin and control image height for images within .lvariable */
+margin-top: 13%;
+height: 58vh;
+}
+.lvariable2 h2{ /* Define font size, alignment, font, color, padding, and margin for h2 within .lvariable2 */
+    font-size: larger;
+    font-family: 'Oswald';
+    color: black;
+    padding-top: 24%;
+    font-size: 1.5em;
+    margin-left: 56%;
+    margin-top: -50%;
+}
+.lvariable2 p{  /* Define font size, alignment, font, color, and spacing, as well as margin for paragraphs within .lvariable2 */
+    font-size: larger;
+    text-align: justify;
+    font-family: 'Oswald';
+    color: black;
+    margin-left: 49%;
+    padding-inline-end: 3%;
+    padding-top: 4%;
+    padding-inline-start: 3%;
+    margin-bottom: 20%
+}
+.lvariable2 img{ /* Set top margin and control image height for images within .lvariable2 */
+    margin-top: 2%;
+    height: 60vh;
+    margin-left: 6%;
+}
+
+
+.tvariable h1{ /* Define font, alignment, size, color, and margins for h1 within .tvariable */
+    font-family: 'Oswald';
+    text-align: left;
+    font-size: 40px;
+    color: black;
+    padding-inline-end: 2%;
+    padding-inline-start: 2%;
+    margin-top: -30%;
+    margin-left: -100%;
+}
+.tvariable h2{ /* Define font size, alignment, font, color, padding, and margin for h2 within .tvariable */
+    font-size: larger;
+    text-align: left;
+    font-family: 'Oswald';
+    color: black;
+    padding-top: -10%;
+    margin-left: -102%;
+    font-size: 1.5em;
+} 
+.tvariable p{ /* Define font size, alignment, font, color, padding, and margins for paragraphs within .tvariable */
+    font-size: larger;
+    text-align: justify;
+    font-family: 'Oswald';
+    color: black;
+    padding-inline-end: 3%;
+    margin-left: -103%;
+    margin-right: 104%;
+    padding-top: 4%;
+    padding-inline-start: 3%;
+}
+.tvariable img{ /* Set top margin, left margin, and control image height for images within .tvariable */
+    margin-top: 3%;
+    margin-left: 100%;
+    height: 29.7vh;
+}
+.tvariable2 h2{ /* Define font size, alignment, font, color, and margins for h2 within .tvariable2 */
+    font-size: larger;
+    text-align: left;
+    font-family: 'Oswald';
+    color: black;
+    margin-top: -25%;
+    margin-left: 2%;
+    font-size: 1.5em;
+}
+.tvariable2 p{   /* Define font size, alignment, font, color, padding, and margins for paragraphs within .tvariable2 */
+    font-size: larger;
+    text-align: justify;
+    font-family: 'Oswald';
+    color: black;
+    padding-inline-end: 3%;
+    margin-left: -1%;
+    margin-right: 45%;
+    padding-top: 2%;
+    padding-inline-start: 3%;
+}
+.tvariable2 img{  /* Set top margin, left margin, and control image height for images within .tvariable2 */
+    margin-top: 18%;
+    margin-left: 54%;
+    height: 26vh;
+}
+.con{ /* Define styling for the .con class, including position, background color, and border-radius */
+    position: absolute;
+    top: 142vw;
+    left: 9%;
+    background-color: #B386F4;
+    border-radius: 10px;
+    max-width: 80%;
+    margin-left: 130px;
+    
+}
+.con h1{  /* Define font, alignment, size, color, text shadow, and padding for h1 within .con */
+    font-size: 2.6em;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 213, 230);
+    text-shadow: -2px 2px 0 #000,1px 1px 0 #000,1px -1px 0 #000,-1px -1px 0 #000;
+    padding-inline-start: 4%;
+    padding-inline-end: 2%;
+    transition-duration: 2s;
+
+}
+.con p{  /* Define font size, alignment, font, color, and padding for paragraphs within .con */
+    font-size: 1.4em;
+    text-align: justify;
+    font-family: 'Poppins';
+    color: rgb(180, 25, 90);
+    padding-inline-end: 3%;
+    padding-inline-start: 3%;
+}
